@@ -1,9 +1,17 @@
 import React from "react";
-
+import Register from "../../components/Register/Register";
+import SecondaryFooter from "../../components/SecondaryFooter/SecondaryFooter";
+import { Container } from "../../global/components";
+import { RegisterPageWrapper } from "./style";
 function RegisterPage() {
   return (
     <>
-      <div>RegisterPage</div>
+      <RegisterPageWrapper>
+        <Container className="containerRegister">
+          <Register />
+        </Container>
+        <SecondaryFooter />
+      </RegisterPageWrapper>
     </>
   );
 }

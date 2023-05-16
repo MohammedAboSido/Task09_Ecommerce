@@ -20,9 +20,15 @@ function Input({ placeholder, value, name, id, type }) {
 
         {type === "password" &&
           (visibility ? (
-            <VisibilityOffIcon onClick={visibilityHandler} />
+            <VisibilityOffIcon
+              onClick={visibilityHandler}
+              className="passwordIcon"
+            />
           ) : (
-            <VisibilityIcon onClick={visibilityHandler} />
+            <VisibilityIcon
+              onClick={visibilityHandler}
+              className="passwordIcon"
+            />
           ))}
       </InputWrapper>
     </>

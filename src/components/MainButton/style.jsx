@@ -5,6 +5,7 @@ export const MainBtn = styled("button")`
   width: 100%;
   padding: ${({ theme }) => theme.fontSizes.body}rem;
   cursor: pointer;
+  font-weight: 500;
   border-radius: 6px;
   outline: none;
   border: none;

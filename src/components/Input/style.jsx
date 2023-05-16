@@ -4,7 +4,7 @@ export const InputWrapper = styled("div")`
   label: InputWrapper;
   width: 100%;
   position: relative;
-  & > :nth-child(2) {
+  & > .passwordIcon {
     color: ${({ theme }) => theme.pallet.blackColor3};
     position: absolute;
     right: 0.5rem;
