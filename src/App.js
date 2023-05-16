@@ -1,6 +1,5 @@
 import { Global, ThemeProvider } from "@emotion/react";
 import Home from "./components/Home";
-import { Container } from "./global/components";
 import globalStyle from "./global/globalStyle";
 import { lightTheme } from "./global/themes";
 
@@ -9,9 +8,7 @@ function App() {
     <ThemeProvider theme={lightTheme}>
       <div className="App">
         <Global styles={globalStyle} />
-        <Container>
-          <Home />
-        </Container>
+        <Home />
       </div>
     </ThemeProvider>
   );

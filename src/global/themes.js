@@ -7,6 +7,10 @@ const fontSizes = {
   h6: 0.7,
   body: 0.6,
   body2: 0.5,
+  passIcon: 1.3,
+};
+const boxShadows = {
+  boxShadows1: "rgba(0, 0, 0, 0.1) 0px 4px 12px",
 };
 
 export const lightTheme = {
@@ -41,6 +45,7 @@ export const lightTheme = {
     redColor: "#FA3434;", //      ${({theme}) => theme.pallet.redColor};
   },
   fontSizes,
+  boxShadows,
 };
 
 export const darkTheme = {
@@ -75,4 +80,5 @@ export const darkTheme = {
     redColor: "#FA3434;", //      ${({theme}) => theme.pallet.redColor};
   },
   fontSizes,
+  boxShadows,
 };

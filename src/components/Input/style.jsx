@@ -2,14 +2,19 @@ import styled from "@emotion/styled";
 
 export const InputWrapper = styled("div")`
   label: InputWrapper;
-  display: flex;
-  flex-direction: column;
   width: 100%;
+  position: relative;
+  & > :nth-child(2) {
+    color: ${({ theme }) => theme.pallet.blackColor3};
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: ${({ theme }) => theme.fontSizes.passIcon}rem;
+    cursor: pointer;
+  }
 `;
-export const InputLabel = styled("label")`
-  label: InputLabel;
-  font-size: ${({ theme }) => theme.fontSizes.h4}rem;
-`;
+
 export const InputFelid = styled("input")`
   label: InputFelid;
   width: 100%;
@@ -18,4 +23,5 @@ export const InputFelid = styled("input")`
   outline: none;
   border-radius: 5px;
   font-size: ${({ theme }) => theme.fontSizes.h4}rem;
+  padding-right: 2rem;
 `;

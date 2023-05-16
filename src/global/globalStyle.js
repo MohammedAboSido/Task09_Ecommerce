@@ -15,6 +15,10 @@ const globalStyle = (theme) => css`
   a {
     text-decoration: none;
   }
+
+  .link {
+    color: ${theme.pallet.blueColor};
+  }
 `;
 
 export default globalStyle;

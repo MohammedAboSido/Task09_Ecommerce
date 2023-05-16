@@ -1,18 +1,18 @@
 import React from "react";
-import Input from "../../components/Input/Input";
+import Login from "../../components/Login/Login";
+import SecondaryFooter from "../../components/SecondaryFooter/SecondaryFooter";
+import { Container } from "../../global/components";
+import { LoginPageWrapper } from "./style";
 
 function LoginPage() {
   return (
     <>
-      <div>
-        <Input
-          label="Username"
-          placeholder="Email or phone"
-          id="username"
-          name="username"
-          type="text"
-        />
-      </div>
+      <LoginPageWrapper>
+        <Container className="containerLogin">
+          <Login />
+        </Container>
+        <SecondaryFooter />
+      </LoginPageWrapper>
     </>
   );
 }
