@@ -8,6 +8,7 @@ export const IconHeaderWrapper = styled("div")`
   align-items: center;
   gap: 0.2rem;
   cursor: pointer;
+  flex: 1;
   &:hover {
     & > :nth-child(2) {
       color: ${({ theme }) => theme.pallet.blueColor};

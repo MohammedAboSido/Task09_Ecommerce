@@ -4,12 +4,18 @@ export const IconsHeaderWrapper = styled("div")`
   label: IconsHeaderWrapper;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 200px;
   gap: 1rem;
+  flex-wrap: wrap;
 
   .logout {
     background-color: ${({ theme }) => theme.pallet.greyColor6};
     display: flex;
     align-items: center;
+    flex: 1;
+    max-width: 100px;
     gap: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;

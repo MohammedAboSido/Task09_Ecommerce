@@ -11,21 +11,37 @@ export const BottomHeaderWrapper = styled("div")`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 1115px) {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+  }
 `;
 export const BottomHeaderLeft = styled("div")`
   label: BottomHeaderLeft;
   width: 60%;
   display: flex;
   align-items: center;
+
   justify-content: space-between;
   gap: 0.5rem;
+  @media (max-width: 1115px) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
 `;
 export const BottomHeaderLeftLinks = styled("div")`
   label: BottomHeaderLeftLinks;
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
+  @media (max-width: 750px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 export const BottomHeaderSpan = styled("span")`
   label: BottomHeaderLeftLink;
@@ -33,8 +49,18 @@ export const BottomHeaderSpan = styled("span")`
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  white-space: nowrap;
   &:hover {
     color: ${({ theme }) => theme.pallet.blueColor};
+  }
+  @media (max-width: 750px) {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    &:hover {
+      background-color: ${({ theme }) => theme.pallet.blueColor};
+      color: ${({ theme }) => theme.pallet.whiteColor};
+    }
   }
 `;
 
@@ -51,6 +77,7 @@ export const Selector = styled("select")`
 
   @media (max-width: 768px) {
     width: 100%;
+    padding: 0;
   }
 `;
 export const Option = styled("option")`
@@ -61,7 +88,14 @@ export const BottomHeaderRight = styled("div")`
   label: BottomHeaderRight;
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
   gap: 1.5rem;
+  @media (max-width: 750px) {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
 `;
 export const CountryFlags = styled("div")`
   label: CountryFlags;
