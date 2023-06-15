@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const Container = styled("div")`
-  width: 90%;
+  width: 85%;
   margin: auto;
 `;
 export const Checkbox = styled("input")`

@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const SecondaryButtonWrapper = styled("button")`
   label: SecondaryButtonWrapper;
+
   position: relative;
   width: 100%;
   padding: ${({ theme }) => theme.fontSizes.body}rem;
@@ -23,6 +24,7 @@ export const SecondaryButtonWrapper = styled("button")`
         ? ` background-color: ${theme.pallet.greyColor2}; color:${theme.pallet.blackColor3};`
         : `background-color:  ${theme.pallet.blueColor};color:${theme.pallet.whiteColor};`}
   }
+  padding-left: 2rem;
 `;
 export const SecondaryButtonImg = styled("img")`
   label: SecondaryButtonImg;

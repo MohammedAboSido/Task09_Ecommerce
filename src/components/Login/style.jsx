@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-
 export const LoginWrapper = styled("div")`
   label: LoginWrapper;
   background-color: ${({ theme }) => theme.pallet.whiteColor};
