@@ -7,7 +7,10 @@ export const SearchBoxWrapper = styled("div")`
   border-radius: 5px;
   overflow: hidden;
 
-  @media (max-width: 840px) {
+  @media (max-width: 1100px) {
+    flex: 1 75%;
+  }
+  @media (max-width: 700px) {
     width: 100%;
     flex-direction: column;
   }
@@ -34,7 +37,7 @@ export const SearchInput = styled("input")`
   outline: none;
   border-radius: 0;
   font-size: ${({ theme }) => theme.fontSizes.h4}rem;
-  @media (max-width: 840px) {
+  @media (max-width: 700px) {
     border-right: none;
     border-bottom: 2px solid ${({ theme }) => theme.pallet.blueColor};
   }

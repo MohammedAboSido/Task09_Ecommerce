@@ -5,8 +5,7 @@ export const IconsHeaderWrapper = styled("div")`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
-  min-width: 200px;
+  flex: 1 200px;
   gap: 1rem;
   flex-wrap: wrap;
 
@@ -15,7 +14,7 @@ export const IconsHeaderWrapper = styled("div")`
     display: flex;
     align-items: center;
     flex: 1;
-    max-width: 100px;
+    max-width: fit-content;
     gap: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;

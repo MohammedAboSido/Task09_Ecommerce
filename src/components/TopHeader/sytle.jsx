@@ -9,7 +9,7 @@ export const TopHeaderWrapper = styled("div")`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4rem;
+  gap: 2rem;
   padding: 1.5rem 0;
   flex-wrap: wrap;
   @media (max-width: 1115px) {
