@@ -45,6 +45,7 @@ export const lightTheme = {
     orangeColor: "#FF9017;", //      ${({theme}) => theme.pallet.orangeColor};
     greenColor: "#00B517;", //      ${({theme}) => theme.pallet.greenColor};
     redColor: "#FA3434;", //      ${({theme}) => theme.pallet.redColor};
+    redColor2: "#ffe3e3;", //      ${({theme}) => theme.pallet.redColor};
   },
   fontSizes,
   boxShadows,
