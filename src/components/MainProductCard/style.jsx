@@ -10,7 +10,7 @@ export const MainProductCardWrapper = styled("div")`
   border-right: 1px solid ${({ theme }) => theme.pallet.greyColor2};
   border-bottom: 1px solid ${({ theme }) => theme.pallet.greyColor2};
   cursor: pointer;
-  flex: 1 150px;
+  flex: 1 200px;
   height: 100%;
   @media (max-width: 1200px) {
     border: 1px solid ${({ theme }) => theme.pallet.greyColor2};
@@ -44,6 +44,6 @@ export const MainProductCardPrice = styled("span")`
 export const MainProductCardImg = styled("img")`
   label: MainProductCardImg;
   transition: all 0.3s linear;
-  max-width: 90px;
-  max-height: 90px;
+  max-width: 75px;
+  max-height: 75px;
 `;

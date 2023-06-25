@@ -6,7 +6,6 @@ export const SearchBoxWrapper = styled("div")`
   border: 2px solid ${({ theme }) => theme.pallet.blueColor};
   border-radius: 5px;
   overflow: hidden;
-
   @media (max-width: 1100px) {
     flex: 1 75%;
   }

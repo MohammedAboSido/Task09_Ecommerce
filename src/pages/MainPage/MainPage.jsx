@@ -1,5 +1,6 @@
 import React from "react";
 import BottomHeader from "../../components/BottomHeader/BottomHeader";
+import EighthFloor from "../../components/EighthFloor/EighthFloor";
 import FifthFloor from "../../components/FifthFloor/FifthFloor";
 import FirstFloor from "../../components/FirstFloor/FirstFloor";
 import FourthFloor from "../../components/FourthFloor/FourthFloor";
@@ -22,6 +23,7 @@ function MainPage() {
       <FifthFloor />
       <SixthFloor />
       <SeventhFloor />
+      <EighthFloor />
     </MainPageWrapper>
   );
 }

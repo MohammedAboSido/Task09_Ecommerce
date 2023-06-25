@@ -10,8 +10,10 @@ export const FourthFloorWrapper = styled("div")`
   border-right: none;
   border-bottom: none;
   overflow: hidden;
+  height: 220px;
   @media (max-width: 1200px) {
     flex-direction: column;
+    height: auto;
   }
 `;
 export const FourthFloorContainer = styled("div")`
