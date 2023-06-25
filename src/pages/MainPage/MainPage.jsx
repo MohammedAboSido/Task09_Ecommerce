@@ -8,6 +8,7 @@ import NinthFloor from "../../components/NinthFloor/NinthFloor";
 import SecondFloor from "../../components/SecondFloor/SecondFloor";
 import SeventhFloor from "../../components/SeventhFloor/SeventhFloor";
 import ThirdFloor from "../../components/ThirdFloor/ThirdFloor";
+import TopFooter from "../../components/TopFooter/TopFooter";
 import TopHeader from "../../components/TopHeader/TopHeader";
 import SixthFloor from "./../../components/SixthFloor/SixthFloor";
 import { MainPageWrapper } from "./style";
@@ -26,6 +27,7 @@ function MainPage() {
       <SeventhFloor />
       <EighthFloor />
       <NinthFloor />
+      <TopFooter />
     </MainPageWrapper>
   );
 }
