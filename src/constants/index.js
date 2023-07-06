@@ -4,4 +4,5 @@ export const PATH = {
   MAIN: "/main",
   PRODUCTS: "/products",
   CART: "/cart",
+  STORE: "/store",
 };
