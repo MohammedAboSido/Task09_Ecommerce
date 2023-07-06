@@ -29,7 +29,7 @@ export const SecondaryButtonWrapper = styled("button")`
 export const SecondaryButtonImg = styled("img")`
   label: SecondaryButtonImg;
   position: absolute;
-  left: 3%;
+  left: 6%;
   top: 50%;
   transform: translateY(-50%);
 `;

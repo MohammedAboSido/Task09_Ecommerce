@@ -1,3 +1,4 @@
+import CartPage from "../pages/CartPage/CartPage";
 import LoginPage from "../pages/LoginPage/LoginPage";
 import MainPage from "../pages/MainPage/MainPage";
 import ProductsPage from "../pages/ProductsPage/ProductsPage";
@@ -9,4 +10,5 @@ export const router = [
   { path: PATH.REGISTER, element: <RegisterPage /> },
   { path: PATH.MAIN, element: <MainPage /> },
   { path: PATH.PRODUCTS, element: <ProductsPage /> },
+  { path: PATH.CART, element: <CartPage /> },
 ];

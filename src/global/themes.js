@@ -44,6 +44,7 @@ export const lightTheme = {
     blueColor8: "#e6f1ff", //      ${({theme}) => theme.pallet.blueColor6};
     orangeColor: "#FF9017;", //      ${({theme}) => theme.pallet.orangeColor};
     greenColor: "#00B517;", //      ${({theme}) => theme.pallet.greenColor};
+    greenColor2: "#079e07;", //      ${({theme}) => theme.pallet.greenColor};
     redColor: "#FA3434;", //      ${({theme}) => theme.pallet.redColor};
     redColor2: "#ffe3e3;", //      ${({theme}) => theme.pallet.redColor};
   },
@@ -80,6 +81,7 @@ export const darkTheme = {
     blueColor6: "#005ADE;", //      ${({theme}) => theme.pallet.blueColor6};
     orangeColor: "#FF9017;", //      ${({theme}) => theme.pallet.orangeColor};
     greenColor: "#00B517;", //      ${({theme}) => theme.pallet.greenColor};
+    greenColor2: "#079e07;", //      ${({theme}) => theme.pallet.greenColor};
     redColor: "#FA3434;", //      ${({theme}) => theme.pallet.redColor};
   },
   fontSizes,
