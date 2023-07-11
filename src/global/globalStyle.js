@@ -12,6 +12,10 @@ const globalStyle = (theme) => css`
     background-color: ${theme.pallet.bgPrimary};
   }
 
+  table {
+    border-collapse: collapse;
+  }
+
   a {
     text-decoration: none;
   }

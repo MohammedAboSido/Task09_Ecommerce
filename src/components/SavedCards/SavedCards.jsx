@@ -11,7 +11,7 @@ import {
   SavedCardsWrapper,
 } from "./style";
 
-function SavedCards() {
+function SavedCards({ isRelated }) {
   return (
     <SavedCardsWrapper>
       <SavedCardsTitle>Saved for later</SavedCardsTitle>
@@ -20,26 +20,31 @@ function SavedCards() {
           description="GoPro HERO6 4K Action Camera - Black"
           price="$99.50"
           img={img1}
+          isRelated={isRelated}
         />
         <SavedCard
           description="GoPro HERO6 4K Action Camera - Black"
           price="$99.50"
           img={img2}
+          isRelated={isRelated}
         />
         <SavedCard
           description="GoPro HERO6 4K Action Camera - Black"
           price="$99.50"
           img={img3}
+          isRelated={isRelated}
         />
         <SavedCard
           description="GoPro HERO6 4K Action Camera - Black"
           price="$99.50"
           img={img4}
+          isRelated={isRelated}
         />
         <SavedCard
           description="GoPro HERO6 4K Action Camera - Black"
           price="$99.50"
           img={img5}
+          isRelated={isRelated}
         />
       </SavedCardsContainer>
     </SavedCardsWrapper>

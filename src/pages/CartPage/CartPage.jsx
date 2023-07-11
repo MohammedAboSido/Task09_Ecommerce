@@ -31,7 +31,7 @@ function CartPage() {
           </CartPagePayment>
         </CartPageFirstFloor>
         <Features />
-        <SavedCards />
+        <SavedCards isRelated={false} />
         <Discount />
       </Container>
       <TopFooter />

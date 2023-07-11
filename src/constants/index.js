@@ -5,4 +5,5 @@ export const PATH = {
   PRODUCTS: "/products",
   CART: "/cart",
   STORE: "/store",
+  PRODUCT: "/product",
 };

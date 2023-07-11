@@ -74,10 +74,10 @@ export const DiscountRight = styled("div")`
 `;
 export const DiscountRightContainer = styled("div")`
   label: DiscountRightContainer;
-  min-width: 30px;
+  min-width: 50px;
   height: 100%;
   background-color: ${({ theme }) => theme.pallet.blueColor6};
-  transform: skewX(10deg) translateX(-2.5rem);
+  transform: skewX(10deg) translateX(-3rem);
   @media (max-width: 750px) {
     display: none;
   }

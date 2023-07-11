@@ -8,14 +8,18 @@ import {
   SavedCardPrice,
   SavedCardWrapper,
 } from "./style";
-function SavedCard({ img, price, description }) {
+function SavedCard({ img, price, description, isRelated }) {
   return (
     <SavedCardWrapper>
       <SavedCardImg src={img} />
       <SavedCardContainer>
         <SavedCardPrice>{price}</SavedCardPrice>
         <SavedCardDescription>{description}</SavedCardDescription>
-        <SecondaryButton img={img1} title="Move to Cart" brand="google" />
+        {isRelated ? (
+          ""
+        ) : (
+          <SecondaryButton img={img1} title="Move to Cart" brand="google" />
+        )}
       </SavedCardContainer>
     </SavedCardWrapper>
   );
