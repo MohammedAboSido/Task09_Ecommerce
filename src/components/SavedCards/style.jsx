@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const SavedCardsWrapper = styled("div")`
   label: SavedCardsWrapper;
   padding: 1.5rem;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   border: 1px solid ${({ theme }) => theme.pallet.greyColor2};
   border-radius: 5px;
   flex: 1 500px;
@@ -17,6 +17,7 @@ export const SavedCardsTitle = styled("h3")`
   label: SavedCardsTitle;
   font-size: 1.5rem;
   font-weight: 600;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const SavedCardsContainer = styled("div")`

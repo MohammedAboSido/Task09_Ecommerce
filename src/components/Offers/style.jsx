@@ -20,10 +20,11 @@ export const OffersTitle = styled("h3")`
   label: OffersTitle;
   font-size: 1.2rem;
   font-weight: 600;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 export const OffersDetails = styled("span")`
   label: OffersDetails;
-  color: ${({ theme }) => theme.pallet.greyColor};
+  color: ${({ theme }) => theme.pallet.blackColor};
   font-size: 0.97rem;
 `;
 
@@ -31,6 +32,7 @@ export const OffersTimeCeils = styled("div")`
   label: OffersTimeCeils;
   display: flex;
   align-items: center;
+
   gap: 0.4rem;
   margin: 1rem 0;
   @media (max-width: 1200px) {

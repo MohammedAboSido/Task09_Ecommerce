@@ -30,6 +30,7 @@ export const MainProductCardContainer = styled("div")`
 
 export const MainProductCardTitle = styled("span")`
   label: MainProductCardTitle;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const MainProductCardPrice = styled("span")`

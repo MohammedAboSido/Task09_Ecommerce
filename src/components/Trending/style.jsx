@@ -36,6 +36,7 @@ export const TrendingContainer = styled("div")`
 export const TrendingSpan = styled("span")`
   label: TrendingSpan;
   font-size: 2rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
   @media (max-width: 512px) {
     font-size: 1rem;
   }
@@ -43,6 +44,7 @@ export const TrendingSpan = styled("span")`
 export const TrendingTitle = styled("h3")`
   label: TrendingTitle;
   font-size: 2rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
   @media (max-width: 512px) {
     font-size: 1rem;
   }
@@ -58,8 +60,7 @@ export const TrendingButton = styled("button")`
   transition: all 0.2s ease-in-out;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   font-weight: 500;
-  ${({ theme }) =>
-    ` background-color: ${theme.pallet.whiteColor}; color:${theme.pallet.blackColor3};`}
+  ${({ theme }) => ` background-color: white; color:black;`}
   font-size: ${({ theme }) => theme.fontSizes.h4}rem;
   &:hover {
     ${({ theme }) =>

@@ -14,7 +14,7 @@ export const SeparatoreTitle = styled("span")`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   padding: 2px;
   border-radius: 5px;
   color: ${({ theme }) => theme.pallet.greyColor};

@@ -12,6 +12,7 @@ export const SeventhFloorTitle = styled("h3")`
   label: SeventhFloorTitle;
   font-weight: 600;
   font-size: 1.5rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const SeventhFloorCards = styled("div")`

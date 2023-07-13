@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const CheckoutCardWrapper = styled("div")`
   label: CheckoutCardWrapper;
   border: 1px solid ${({ theme }) => theme.pallet.greyColor2};
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@ export const CheckoutCardTitle = styled("span")`
 
 export const CheckoutCardSubtotal = styled("span")`
   label: CheckoutCardSubtotal;
-  color: ${({ theme }) => theme.pallet.greyColor6};
+  color: ${({ theme }) => theme.pallet.greyColor4};
   font-weight: 500;
 `;
 
@@ -73,7 +73,7 @@ export const CheckoutCardButton = styled("button")`
   border: none;
   transition: all 0.2s ease-in-out;
   background-color: ${({ theme }) => theme.pallet.greenColor};
-  color: ${({ theme }) => theme.pallet.whiteColor};
+  color: white;
   font-size: 1.2rem;
   &:hover {
     background-color: ${({ theme }) => theme.pallet.greenColor2};

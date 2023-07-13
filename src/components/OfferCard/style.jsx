@@ -2,8 +2,8 @@ import styled from "@emotion/styled";
 
 export const OfferCardWrapper = styled("div")`
   label: OfferCardWrapper;
-  color: ${({ textColor }) => (textColor ? textColor : "black")};
-  background-color: ${({ bgColor }) => (bgColor ? bgColor : "white")};
+  color: white;
+  background-color: ${({ bgColor }) => (bgColor ? bgColor : "#55bdc4")};
   padding: 1rem;
   padding-right: 1.5rem;
   border-radius: 6px;

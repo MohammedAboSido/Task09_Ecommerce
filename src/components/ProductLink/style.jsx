@@ -13,7 +13,6 @@ export const ProductLinkWrapper = styled("div")`
     width: 100%;
     height: 100%;
     &:hover {
-      color: ${({ theme }) => theme.pallet.blackColor};
       background-color: ${({ theme }) => theme.pallet.blueColor8};
       font-weight: 500;
     }

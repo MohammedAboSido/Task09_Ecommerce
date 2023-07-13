@@ -12,6 +12,7 @@ export const SixthFloorWrapperTitle = styled("h3")`
   label: SixthFloorWrapperTitle;
   font-weight: 600;
   font-size: 1.5rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const SixthFloorCards = styled("div")`

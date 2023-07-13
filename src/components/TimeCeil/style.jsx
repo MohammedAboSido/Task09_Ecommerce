@@ -17,10 +17,11 @@ export const TimeCeilWrapper = styled("div")`
 export const TimeCeilNumber = styled("span")`
   label: TimeCeilNumber;
   font-weight: bold;
-  color: ${({ theme }) => theme.pallet.whiteColor};
+  color: white;
 `;
 export const TimeCeilUnit = styled("span")`
   label: TimeCeilUnit;
-  color: ${({ theme }) => theme.pallet.whiteColor};
+  color: white;
+
   font-size: 0.8rem;
 `;

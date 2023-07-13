@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const QuoteWrapper = styled("div")`
   label: QuoteWrapper;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: white;
   padding: 1rem;
   display: flex;
   flex-direction: column;

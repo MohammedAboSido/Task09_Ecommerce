@@ -15,5 +15,5 @@ export const SelectInput = styled("input")`
 export const SelectTitle = styled("label")`
   label: SelectTitle;
   cursor: pointer;
-  color: ${({ theme }) => theme.pallet.greyColor6};
+  color: ${({ theme }) => theme.pallet.greyColor};
 `;

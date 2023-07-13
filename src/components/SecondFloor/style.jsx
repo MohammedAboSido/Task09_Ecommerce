@@ -10,7 +10,7 @@ export const SecondFloorWrapper = styled("div")`
   margin-top: 2rem;
   overflow: hidden;
   flex-wrap: wrap;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   &:last-child {
     border-right: none;
   }

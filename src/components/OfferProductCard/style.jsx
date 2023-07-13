@@ -35,6 +35,7 @@ export const OfferProductCardImg = styled("img")`
 export const OfferProductCardTitle = styled("span")`
   label: OfferProductCardTitle;
   margin-top: 0.5rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 export const OfferProductCardDiscount = styled("span")`
   label: OfferProductCardDiscount;

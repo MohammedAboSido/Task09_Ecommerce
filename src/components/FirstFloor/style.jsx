@@ -5,7 +5,7 @@ export const FirstFloorWrapper = styled("div")`
   display: flex;
   padding: 1rem;
   gap: 1rem;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   border: 1px solid ${({ theme }) => theme.pallet.greyColor2};
   border-radius: 5px;
   margin: 1.3rem 0;

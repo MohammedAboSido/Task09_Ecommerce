@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const RegisterWrapper = styled("div")`
   label: RegisterWrapper;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   width: 30%;
   ${({ theme }) =>
     ` padding:  ${theme.fontSizes.body}rem ${theme.fontSizes.h3}rem;border: 1px solid ${theme.pallet.blackColor2};`};
@@ -25,6 +25,7 @@ export const RegisterWrapper = styled("div")`
 export const RegisterTitle = styled("h3")`
   label: RegisterTitle;
   font-size: ${({ theme }) => theme.fontSizes.h3}rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 export const RegisterName = styled("div")`
   label: RegisterName;

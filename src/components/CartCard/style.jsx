@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const CartCardWrapper = styled("div")`
   label: CartCardWrapper;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
@@ -47,6 +47,7 @@ export const CartCardTitle = styled("h3")`
   label: CartCardTitle;
   font-weight: 500;
   font-size: 1rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
   @media (max-width: 350px) {
     text-align: center;
   }
@@ -86,7 +87,7 @@ export const CartCardRemoveBtn = styled("button")`
   transition: all 0.2s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   font-weight: 500;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: white;
   color: ${({ theme }) => theme.pallet.redColor};
   &:hover {
     background-color: ${({ theme }) => theme.pallet.greyColor7};
@@ -107,7 +108,7 @@ export const CartCardSaveBtn = styled("button")`
   transition: all 0.2s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   font-weight: 500;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: white;
   color: ${({ theme }) => theme.pallet.blueColor};
   &:hover {
     background-color: ${({ theme }) => theme.pallet.greyColor7};
@@ -135,6 +136,7 @@ export const CartCardRight = styled("div")`
 export const CartCardPrice = styled("span")`
   label: CartCardPrice;
   font-weight: 500;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const CartCardCounts = styled("select")`

@@ -23,5 +23,5 @@ export const SupplierContainer = styled("div")`
 export const SupplierTitle = styled("div")`
   label: SupplierTitle;
   font-size: 0.9rem;
-  color: ${({ theme }) => theme.pallet.greyColor6};
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;

@@ -60,7 +60,7 @@ export const ShoppingGuideBtn = styled("button")`
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   font-weight: 500;
   ${({ theme }) =>
-    ` background-color: ${theme.pallet.whiteColor}; color:${theme.pallet.blackColor3};`}
+    ` background-color: white ; color:${theme.pallet.blackColor3};`}
   font-size: ${({ theme }) => theme.fontSizes.h4}rem;
   &:hover {
     ${({ theme }) =>

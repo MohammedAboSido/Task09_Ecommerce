@@ -34,7 +34,7 @@ export const DiscountLeft = styled("div")`
 
 export const DiscountTitle = styled("h3")`
   label: DiscountTitle;
-  color: ${({ theme }) => theme.pallet.whiteColor};
+  color: white;
   font-size: 1.5rem;
   font-weight: 600;
   @media (max-width: 280px) {

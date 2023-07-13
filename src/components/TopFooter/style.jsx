@@ -29,7 +29,7 @@ export const TopFooterLeftLogo = styled("img")`
 `;
 export const TopFooterLeftDescription = styled("p")`
   label: TopFooterLeftDescription;
-  color: ${({ theme }) => theme.pallet.greyColor6};
+  color: ${({ theme }) => theme.pallet.blackColor};
   font-weight: 400;
 `;
 export const TopFooterLeftSocials = styled("div")`
@@ -69,6 +69,7 @@ export const TopFooterTitle = styled("h3")`
   label: TopFooterTitle;
   font-weight: 600;
   font-size: 1rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 export const TopFooterCenterItem = styled("span")`
   label: TopFooterCenterItem;

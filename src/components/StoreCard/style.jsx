@@ -4,7 +4,7 @@ export const StoreCardWrapper = styled("div")`
   label: StoreCardWrapper;
   border: 1px solid ${({ theme }) => theme.pallet.greyColor2};
   border-radius: 5px;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   display: flex;
   gap: 0.5rem;
   flex: 1 250px;
@@ -46,6 +46,7 @@ export const StoreCardTitle = styled("span")`
   label: StoreCardTitle;
   font-weight: 500;
   font-size: 1.1rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const StoreCardPrice = styled("div")`
@@ -59,6 +60,7 @@ export const StoreCardNewPrice = styled("span")`
   label: StoreCardNewPrice;
   font-weight: 600;
   font-size: 1.4rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const StoreCardOldPrice = styled("span")`
@@ -129,7 +131,7 @@ export const StoreCardScore = styled("span")`
 
 export const StoreCardDescription = styled("span")`
   label: StoreCardDescription;
-  color: ${({ theme }) => theme.pallet.greyColor6};
+  color: ${({ theme }) => theme.pallet.greyColor};
   line-height: 1.5;
   width: 100%;
 `;

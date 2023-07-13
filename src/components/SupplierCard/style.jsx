@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const SupplierCardWrapper = styled("div")`
   label: SupplierCardWrapper;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   border: 1px solid ${({ theme }) => theme.pallet.greyColor2};
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ export const SupplierCardHeadingRight = styled("div")`
 
 export const SupplierCardTitle = styled("span")`
   label: SupplierCardTitle;
-  color: ${({ theme }) => theme.pallet.greyColor6};
+  color: ${({ theme }) => theme.pallet.blackColor};
   font-size: 1rem;
 `;
 
@@ -86,6 +86,7 @@ export const SupplierCardBtn = styled("div")`
   }
   & > :last-child {
     color: ${({ theme }) => theme.pallet.blueColor};
+    background-color: white;
     @media (max-width: 320px) {
       padding-left: 0.5rem;
     }

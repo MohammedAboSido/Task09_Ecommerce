@@ -31,7 +31,7 @@ export const FeatureCardContainer = styled("div")`
 
 export const FeatureCardTitle = styled("span")`
   label: FeatureCardTitle;
-  color: ${({ theme }) => theme.pallet.blackColor3};
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const FeatureCardDescription = styled("span")`

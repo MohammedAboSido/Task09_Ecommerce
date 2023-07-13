@@ -26,6 +26,10 @@ export const BottomHeaderLeft = styled("div")`
 
   justify-content: space-between;
   gap: 0.5rem;
+
+  & > svg {
+    color: ${({ theme }) => theme.pallet.blackColor};
+  }
   @media (max-width: 1115px) {
     width: 100%;
     flex-wrap: wrap;
@@ -50,6 +54,7 @@ export const BottomHeaderSpan = styled("span")`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   white-space: nowrap;
+  color: ${({ theme }) => theme.pallet.blackColor};
   &:hover {
     color: ${({ theme }) => theme.pallet.blueColor};
   }
@@ -68,6 +73,8 @@ export const Selector = styled("select")`
   label: Selector;
   transition: all 0.3s ease-in-out;
   padding: ${({ theme }) => theme.fontSizes.body}rem;
+  background-color: transparent;
+  color: ${({ theme }) => theme.pallet.blackColor};
   border: none;
   outline: none;
   border-radius: 0;
@@ -82,6 +89,8 @@ export const Selector = styled("select")`
 `;
 export const Option = styled("option")`
   label: Option;
+  color: ${({ theme }) => theme.pallet.blackColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor};
 `;
 
 export const BottomHeaderRight = styled("div")`
@@ -103,6 +112,10 @@ export const CountryFlags = styled("div")`
   align-items: center;
   gap: 0.3rem;
   cursor: pointer;
+
+  & > svg {
+    color: ${({ theme }) => theme.pallet.blackColor};
+  }
 `;
 export const FlagImg = styled("img")`
   label: FlagImg;

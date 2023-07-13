@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const ProductDetailsWrapper = styled("div")`
   label: ProductDetailsWrapper;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -27,6 +27,7 @@ export const ProductDetailsTitle = styled("h3")`
   label: ProductDetailsTitle;
   font-size: 1.3rem;
   font-weight: 600;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const StoreCardRate = styled("div")`
@@ -128,7 +129,7 @@ export const ProductDetailsPrice = styled("span")`
 
 export const ProductDetailsContainer = styled("div")`
   label: ProductDetailsContainer;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -158,11 +159,11 @@ export const ProductDetailsGroupContainer = styled("div")`
 export const ProductDetailsGroupTitle = styled("span")`
   label: ProductDetailsGroupTitle;
   width: 120px;
-  color: ${({ theme }) => theme.pallet.greyColor4};
+  color: ${({ theme }) => theme.pallet.blackColor};
   font-weight: 500;
 `;
 
 export const ProductDetailsGroupValue = styled("span")`
   label: ProductDetailsGroupValue;
-  color: ${({ theme }) => theme.pallet.greyColor6};
+  color: ${({ theme }) => theme.pallet.greyColor};
 `;

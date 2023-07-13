@@ -40,7 +40,6 @@ export const FifthFloorContainer = styled("div")`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  color: ${({ theme }) => theme.pallet.whiteColor};
   padding: 0.5rem;
   @media (max-width: 1050px) {
     flex: 1 25rem;
@@ -50,13 +49,13 @@ export const FifthFloorTitle = styled("h3")`
   label: FifthFloorTitle;
   font-size: 2rem;
   font-weight: 600;
-  color: ${({ theme }) => theme.pallet.whiteColor};
+  color: white;
   @media (max-width: 280px) {
     font-size: 1rem;
   }
 `;
 export const FifthFloorDetails = styled("p")`
   label: FifthFloorDetails;
-  color: ${({ theme }) => theme.pallet.whiteColor};
+  color: white;
   font-size: 0.98rem;
 `;

@@ -5,7 +5,7 @@ export const GalleryWrapper = styled("div")`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   flex: 1 30%;
   @media (max-width: 1020px) {
     width: 100%;

@@ -23,7 +23,6 @@ export const LikeCardImg = styled("img")`
   border: 1px solid ${({ theme }) => theme.pallet.greyColor2};
   padding: 0.7rem;
   border-radius: 0.5rem;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
   @media (max-width: 340px) {
     width: 100%;
   }
@@ -39,7 +38,7 @@ export const LikeCardContainer = styled("div")`
 
 export const LikeCardTitle = styled("span")`
   label: LikeCardTitle;
-  color: ${({ theme }) => theme.pallet.greyColor6};
+  color: ${({ theme }) => theme.pallet.blackColor};
   font-size: 1rem;
   line-height: 1.5;
 `;

@@ -26,6 +26,7 @@ export const RegionName = styled("span")`
   label: RegionName;
   font-size: 1.1rem;
   font-weight: 400;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 export const RegionDetails = styled("span")`
   label: RegionDetails;

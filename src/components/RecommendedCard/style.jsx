@@ -6,7 +6,7 @@ export const RecommendedCardWrapper = styled("div")`
   border-radius: 5px;
   padding: 0.5rem;
   padding-top: 1rem;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -30,6 +30,7 @@ export const RecommendedCardPrice = styled("span")`
   label: RecommendedCardPrice;
   font-size: 1rem;
   font-weight: 500;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 export const RecommendedCardTitle = styled("span")`
   label: RecommendedCardTitle;

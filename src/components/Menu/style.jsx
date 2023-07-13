@@ -22,6 +22,7 @@ export const MenuContainer = styled("div")`
 export const MenuTitle = styled("h3")`
   label: MenuTitle;
   font-weight: 600;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 export const MenuItems = styled("div")`
   label: MenuItems;

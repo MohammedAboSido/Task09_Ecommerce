@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const GreetingCardWrapper = styled("div")`
   label: GreetingCardWrapper;
-  background-color: ${({ theme }) => theme.pallet.blueColor8};
+  background-color: #e6f1ff;
   border-radius: 5px;
   padding: 0.6rem;
   display: flex;
@@ -50,12 +50,10 @@ export const GreetingCardJoinBtn = styled("button")`
   transition: all 0.2s ease-in-out;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   font-weight: 500;
-  ${({ theme }) =>
-    `background-color:  ${theme.pallet.blueColor6};color:${theme.pallet.whiteColor};`}
+  ${({ theme }) => `background-color:  #005ADE;color:white;`}
   font-size: ${({ theme }) => theme.fontSizes.h4}rem;
   &:hover {
-    ${({ theme }) =>
-      `background-color:  ${theme.pallet.blueColor};color:${theme.pallet.whiteColor};`}
+    ${({ theme }) => `background-color:  ${theme.pallet.blueColor};`}
   }
 `;
 export const GreetingCardLearnBtn = styled("button")`
@@ -70,11 +68,9 @@ export const GreetingCardLearnBtn = styled("button")`
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   font-weight: 500;
 
-  ${({ theme }) =>
-    ` background-color: ${theme.pallet.whiteColor}; color:${theme.pallet.blueColor};`}
+  ${({ theme }) => ` background-color: white; color:#0D6EFD;`}
   font-size: ${({ theme }) => theme.fontSizes.h4}rem;
   &:hover {
-    ${({ theme }) =>
-      ` background-color: ${theme.pallet.greyColor5}; color:${theme.pallet.blueColor};`}
+    ${({ theme }) => ` background-color: ${theme.pallet.greyColor5};`}
   }
 `;

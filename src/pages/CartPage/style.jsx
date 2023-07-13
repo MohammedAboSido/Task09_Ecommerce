@@ -10,6 +10,7 @@ export const CartPageTitle = styled("h3")`
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2rem 0;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const CartPageFirstFloor = styled("div")`

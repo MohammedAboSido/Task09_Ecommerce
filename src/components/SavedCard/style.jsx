@@ -35,6 +35,7 @@ export const SavedCardContainer = styled("div")`
   gap: 0.5rem;
   & > button {
     color: ${({ theme }) => theme.pallet.blueColor};
+    background-color: white;
     font-weight: 500;
     width: fit-content;
     padding-left: 2.5rem;
@@ -55,9 +56,10 @@ export const SavedCardPrice = styled("span")`
   label: SavedCardPrice;
   font-weight: 600;
   font-size: 1.1rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 
 export const SavedCardDescription = styled("div")`
   label: SavedCardDescription;
-  color: ${({ theme }) => theme.pallet.greyColor6};
+  color: ${({ theme }) => theme.pallet.greyColor};
 `;

@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 export const LoginWrapper = styled("div")`
   label: LoginWrapper;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   width: 30%;
   ${({ theme }) =>
     ` padding:  ${theme.fontSizes.body}rem ${theme.fontSizes.h3}rem;border: 1px solid ${theme.pallet.blackColor2};`};
@@ -10,6 +10,12 @@ export const LoginWrapper = styled("div")`
   flex-direction: column;
   gap: 1.4rem;
   box-shadow: ${({ theme }) => theme.boxShadows.boxShadows1};
+  & > button:nth-of-type(2) {
+    background-color: white;
+  }
+  & > button:nth-of-type(3) {
+    color: white;
+  }
   @media (max-width: 1270px) {
     width: 50%;
   }
@@ -24,6 +30,7 @@ export const LoginWrapper = styled("div")`
 export const LoginTitle = styled("h3")`
   label: LoginTitle;
   font-size: ${({ theme }) => theme.fontSizes.h3}rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 export const InputContainer = styled("div")`
   label: InputContainer;

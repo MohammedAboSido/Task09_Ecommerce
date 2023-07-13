@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const NinthFloorWrapper = styled("div")`
   label: NinthFloorWrapper;
-  background-color: ${({ theme }) => theme.pallet.greyColor2};
+  background-color: ${({ theme }) => theme.pallet.greyColor2A};
   padding: 2.5rem 1rem;
   margin-top: 3rem;
   display: flex;
@@ -15,6 +15,7 @@ export const NinthFloorTitle = styled("h3")`
   label: NinthFloorTitle;
   font-weight: 600;
   font-size: 1.5rem;
+  color: ${({ theme }) => theme.pallet.blackColor};
 `;
 export const NinthFloorDetails = styled("p")`
   label: NinthFloorDetails;

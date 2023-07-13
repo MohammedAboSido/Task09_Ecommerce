@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const ServicesCardWrapper = styled("div")`
   label: ServicesCardWrapper;
-  background-color: ${({ theme }) => theme.pallet.whiteColor};
+  background-color: ${({ theme }) => theme.pallet.whiteColor1};
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -65,6 +65,7 @@ export const ServicesCardTitle = styled("span")`
   label: ServicesCardTitle;
   padding: 1rem;
   display: inline-block;
+  color: ${({ theme }) => theme.pallet.blackColor};
   font-weight: 500;
   width: 70%;
 `;
